@@ -15,6 +15,7 @@ for (letters = 'a'; letters <= 'f'; letters++)
 {
 putchar(letters);
 }
+putchar('\n');
 return (0);
 
 
