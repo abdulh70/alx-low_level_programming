@@ -12,7 +12,7 @@ for (a = 48; a < 58; a++)
 	{
 		for (c = 50; b < 58; b++)
 		{
-			if (c > b && c > a)
+			if (c > b && b > a)
 			{
 				putchar(a);
 				putchar(b);
