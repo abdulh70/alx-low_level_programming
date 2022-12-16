@@ -16,6 +16,7 @@ while (n % 2 == 0)
 {
 max = 2;
 n /= 2;
+}
 for (i = 3; i <= sqrt(n); i = i + 2)
 {
 while (n % i == 0)
@@ -29,4 +30,4 @@ max = n;
 printf("%ld\n", max);
 return (0);
 }
-}
+
