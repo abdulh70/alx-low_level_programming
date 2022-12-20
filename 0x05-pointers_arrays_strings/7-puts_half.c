@@ -11,7 +11,7 @@ for (k = 0; str[k] != '\0'; ++k)
 ;
 if (k % 2 == 0)
 {
-for (m = l / 2; str[m] != '\0'; ++m)
+for (m = k / 2; str[m] != '\0'; ++m)
 _putchar(str[m]);
 }
 else
