@@ -11,7 +11,6 @@ int count;
 
 for (count = 0; s[count] != '\0'; ++count)
 {
-	;
 
 /*print char from the last index as you decrement*/
 for (--count; count >= 0; --count)
