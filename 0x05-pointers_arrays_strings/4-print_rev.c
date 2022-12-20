@@ -12,7 +12,9 @@ int count;
 for (count = 0; s[count] != '\0'; ++count)
 {
 
-/*print char from the last index as you decrement*/
+;
+
+/*prints charcter from the last index */
 for (--count; count >= 0; --count)
 {
 _putchar(s[count]);
