@@ -7,7 +7,9 @@
  * Return: Always 0
  */
 int main(void)
-int j, total, m;
+int j;
+int total;
+int m;
 sum = 0;
 srand(time(NULL));
 for (j = 0; j < 100; j++)
