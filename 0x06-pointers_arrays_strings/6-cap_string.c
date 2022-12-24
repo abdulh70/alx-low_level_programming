@@ -16,7 +16,7 @@ while (s[i] != '\0')
 if (s[d1] >= 97 && s[d1] <= 122)
 {
 /**
- *
+ *change value to lowercase
  */
 if (d1 == 0)
 {
