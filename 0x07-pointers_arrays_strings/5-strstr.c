@@ -17,7 +17,7 @@ while (*m != '\0' && *haystack == *m)
 haystack++;
 m++;
 }
-if (!*n)
+if (!*m)
 return (j);
 haystack++;
 }
