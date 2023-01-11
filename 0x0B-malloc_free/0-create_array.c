@@ -22,8 +22,8 @@ while (k < size)
 *(ptr + k) = c;
 k++;
 }
-*(p + k) = "\0";
-return (p);
+*(ptr + k) = "\0";
+return (ptr);
 
 
 }
