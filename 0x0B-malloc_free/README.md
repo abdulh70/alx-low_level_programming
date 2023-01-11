@@ -1,0 +1,1 @@
+applications of dynamic memory
