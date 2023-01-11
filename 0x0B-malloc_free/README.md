@@ -1,1 +1,1 @@
-applications of dynamic memory
+dynamic memory allocation
