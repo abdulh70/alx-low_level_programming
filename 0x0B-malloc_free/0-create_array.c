@@ -14,7 +14,7 @@ if (size == 0)
 {
 return (NULL);
 }
-ptr = (char *)malloc(size * sizeof(char));
+ptr = (char *) malloc(size * sizeof(char));
 if (ptr == NULL)
 return (0);
 while (k < size)
