@@ -23,7 +23,7 @@ if (x[k] == NULL)
 {
 free(x);
 for (j = 0; j <= k; j++)
-free(arr[j]);
+free(x[j]);
 return (NULL);
 }
 }
