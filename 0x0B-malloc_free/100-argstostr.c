@@ -18,6 +18,7 @@ for (m = 0; m < ac; m++)
 for (j = 0; av[m][j] != '\0'; j++)
 	length++;
 length++;
+}
 str = malloc((length + 1) * sizeof(char));
 if (str == NULL)
 return (NULL);
@@ -35,4 +36,4 @@ k++;
 str[k] = '\0';
 return (str);
 }
-}
+
