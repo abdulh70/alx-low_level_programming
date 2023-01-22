@@ -3,7 +3,7 @@
  *main - program that perfroms simple operations
  *@argc: number of arguments
  *@argv: array
- *Return: Always 0 
+ *Return: Always 0
  */
 int main(int argc, char *argv[])
 {
